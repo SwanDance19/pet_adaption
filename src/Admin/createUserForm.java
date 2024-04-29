@@ -79,7 +79,7 @@ public class createUserForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
 
         update.setText("Update");
         update.setEnabled(false);
@@ -102,21 +102,27 @@ public class createUserForm extends javax.swing.JFrame {
         });
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("First name:");
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Last name:");
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Email:");
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Username:");
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Password:");
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Account Type:");
 
         us.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Active", "Pending" }));
@@ -127,6 +133,7 @@ public class createUserForm extends javax.swing.JFrame {
         });
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Account Status:");
 
         clear.setText("Clear");
@@ -267,9 +274,10 @@ public class createUserForm extends javax.swing.JFrame {
                 .addGap(331, 331, 331))
         );
 
-        jPanel4.setBackground(new java.awt.Color(255, 153, 102));
+        jPanel4.setBackground(new java.awt.Color(0, 0, 0));
 
         back.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        back.setForeground(new java.awt.Color(255, 255, 255));
         back.setText("Back");
         back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
